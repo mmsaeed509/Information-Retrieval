@@ -4,9 +4,10 @@ import java.text.DecimalFormat;
 
 /**
  *
- * @author ozil
- * GitHub : https://github.com/mmsaeed509
- *
+ * @author 00xWolf
+ *  GitHub : @mmsaeed509
+ * 﫥 Copyright : @Mahmoud Mohamed
+ * 
  */
 
 import java.util.ArrayList;

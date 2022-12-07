@@ -4,9 +4,10 @@ import java.util.*;
 
 /**
  *
- * @author ozil
- * GitHub : https://github.com/mmsaeed509
- *
+ * @author 00xWolf
+ *  GitHub : @mmsaeed509
+ * 﫥 Copyright : @Mahmoud Mohamed
+ * 
  */
 
 /* This Class To Store File Name And Their Values and Sorting theme */

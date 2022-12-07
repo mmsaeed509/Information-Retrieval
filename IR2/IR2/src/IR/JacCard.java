@@ -5,9 +5,10 @@ import java.util.*;
 
 /**
  *
- * @author ozil
- * GitHub : https://github.com/mmsaeed509
- *
+ * @author 00xWolf
+ *  GitHub : @mmsaeed509
+ * 﫥 Copyright : @Mahmoud Mohamed
+ * 
  */
 
 public class JacCard {
@@ -44,15 +45,22 @@ public class JacCard {
         /*
         * here we clone data to avoid any changes in the original doc's data
         * if we use original docs, the function will overwrite original docs
+        *
+        * docClone (ozil , ali , salah)
+        * queryClone (ozil , ali, ahmed)
+        * newQuery(ozil , ali, ahmed)
         *  */
         HashSet<String>queryClone = new HashSet<String>(query);
         HashSet<String>docsWordsClone = new HashSet<String>(docsWords);
 
         if (queryClone.size()<=docsWordsClone.size()){
 
-            HashSet<String> newQuery = new HashSet<>(queryClone);
-            newQuery.removeAll(docsWordsClone);
-            queryClone.removeAll(newQuery);
+
+            HashSet<String> newQuery = new HashSet<>(queryClone);/* newQuery(ozil , ali, ahmed) */
+            /* docsWordsClone (ozil , ali , salah) */
+            newQuery.removeAll(docsWordsClone);/* newQuery (ozil, ali) */
+            /* queryClone (ozil , ali, ahmed)
+            queryClone.removeAll(newQuery);/* queryClone(ozil , ali) */
             return queryClone;
 
         }else{
@@ -90,7 +98,7 @@ public class JacCard {
     *   wordsSet.add("are");
     *   wordsSet.add("you");
     *
-     *  */
+    *  */
     private HashSet<String>splitQuery(String query){
 
         HashSet<String> wordsSet = new HashSet<>();

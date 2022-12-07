@@ -1,4 +1,5 @@
 <h1 align="center"> Description </h1>
 
-![](description.png)
-
+<p align="center">
+  <img src="imgs/description.png" alt="Description"></a>
+</p>
