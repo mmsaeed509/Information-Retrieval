@@ -3,6 +3,7 @@
 
 <h4 align="center"> Assignment # 1 </h4>
 
+<img src="imgs/Posting.png" alt="Posting" align="right">
 
 Write a java code that:-
 
