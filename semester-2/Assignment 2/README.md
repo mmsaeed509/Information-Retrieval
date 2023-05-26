@@ -40,3 +40,14 @@ String result = "";
  //10 return Top K components of Scores[]
 
 ```
+
+<h4 align="center"> Bonus Assignment </h4>
+
+- [1st] download [**`jsoup`**](https://jsoup.org/packages/jsoup-1.16.1.jar) library
+- [2nd] add the `library` to your project
+- [3rd] adding library in [**`IntelliJ IDEA`**](https://www.jetbrains.com/idea/download/)
+  - **`File`** -> **`Project Structure...(Ctrl+Alt+Shift+S)`** -> **`Libraries`** -> **`+`** -> **`Java`**
+  - ![](imgs/1.png)
+
+
+
