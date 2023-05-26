@@ -47,7 +47,8 @@ String result = "";
 - [2nd] add the `library` to your project
 - [3rd] adding library in [**`IntelliJ IDEA`**](https://www.jetbrains.com/idea/download/)
   - **`File`** -> **`Project Structure...(Ctrl+Alt+Shift+S)`** -> **`Libraries`** -> **`+`** -> **`Java`**
-  - ![](imgs/1.png)
+  - select the library from the directory you saved in -> **`OK`** -> **`Apply`** & **`OK`**
+  - ![](imgs/steps.png)
 
 
 
